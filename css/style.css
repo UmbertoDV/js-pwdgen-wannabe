@@ -1,0 +1,22 @@
+body{
+    background-image: url("../img/matrix.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    box-shadow: 1px 1px 30px 10px rgb(255, 255, 255) inset, 1px 1px 30px 10px rgb(255, 255, 255);
+}
